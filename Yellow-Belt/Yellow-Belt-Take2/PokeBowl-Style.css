@@ -1,0 +1,71 @@
+.container{
+    background-color:white;
+    width: 900px;
+    padding-bottom: 150px;
+    height: 600px;
+    display: flex;
+    margin-left: 10px;
+}
+
+.side-nav{
+    height: 600px;
+    background-color: white;
+    margin-bottom: 50px;
+    flex: 1;
+}
+.logo{
+    width: 200px;
+    height: 150px;
+}
+h4{
+    font-family: cursive;
+}
+a{
+    font-family: cursive;
+}
+h5{
+    font-family: cursive;
+}
+.map{
+    width: 200px;
+    height: 150px;
+}
+
+.content{
+    height: 600px;
+    background-color: white;
+    flex: 6;
+}
+.top{
+    height: 500px;
+    background-color: grey;
+    margin-left: 20px;
+}
+.video{
+    height: 400px;
+    margin-left: 150px;
+}
+
+.bottom{
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.col1{
+    border-radius: 20px;
+    background-color: rgb(43,120,228);
+    margin: 10px;
+    flex: 2;
+}
+
+.col2{
+    border-radius: 20px;
+    background-color: rgb(207,42,39);
+    margin: 10px;
+    flex: 1;
+}
+.mp3{
+    width: 10px;
+}
+
