@@ -1,0 +1,26 @@
+.flag{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.left{
+    width: 200px;
+    height: 400px;
+    background-color: green;
+}
+.mid{
+    width: 200px;
+    height: 400px;
+}
+.right{
+    width: 200px;
+    height: 400px;
+    background-color: red;
+}
+img{
+    display: block;
+    width: 145px;
+    height: 145px;
+    margin: 100px auto;
+}
