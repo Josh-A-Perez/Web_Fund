@@ -1,0 +1,44 @@
+.container{
+    width: 950px;
+    margin: 0px auto;
+}
+
+.nav{
+    background-color: rgb(51,51,51);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.nav-title{
+    color: rgb(233,245,248);
+    margin: 20px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.nav-links{
+    margin-top: 25px;
+    display: flex;
+    color: rgb(51,51,51);
+}
+
+a{
+    margin: 20px;
+    color: rgb(233,245,248);
+    text-decoration-line: none;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.btn{
+    color: rgb(233,245,248);
+    background-color: rgb(23,162,184);
+    height: 25px;
+    width:  75px;
+    border-color: black;
+    box-shadow: black 3px 3px;
+}
