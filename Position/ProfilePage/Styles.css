@@ -1,0 +1,166 @@
+h2{
+    margin: 0px;
+}
+.container{
+    width: 1200px;
+    margin: 0px auto;
+    font-family: 'Caveat', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 24px;
+    background-color: rgb(51,51,51);
+}
+
+.nav{
+    background-color: black;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.nav-title{
+    color: whitesmoke;
+    margin-left: 125px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 250px;
+}
+
+.links{
+    color: whitesmoke;
+    text-decoration-line: none;
+    margin-right: 40px;
+}
+
+.active{
+    font-weight: bolder;
+}
+
+.btn{
+    background-color: dodgerblue;
+    color: whitesmoke;
+    width: 100px;
+    height: 30px;
+    border: 2px solid gray;
+    margin-right: 125px;
+}
+
+.content{
+    width: 1000px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.left{
+    position: relative;
+    flex: 4;
+    margin: 20px;
+}
+
+.right{
+    padding-right: 10px;
+    flex: 3;
+    margin: 20px;
+}
+
+.top{
+    height: 75px;
+    background-color: dodgerblue;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.main{
+    background-color: whitesmoke;
+    padding-top: 15px;
+    border: 2px solid black;
+    border-top: none;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.tinyi{
+    height: 35px;
+}
+
+.low{
+    background-color: rgba(255, 0, 0, 0.445);
+    color: whitesmoke;
+    height: 45px;
+}
+
+.user{
+    margin-right: 10px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.topr{
+    background-color: rgba(255, 0, 0, 0.445);
+    color: whitesmoke;
+    height: 50px;
+}
+
+.req{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-top: none;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+.myfriends{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-top: none;
+    padding-top: 5px;
+}
+
+.midt{
+    background-color: rgba(255, 0, 0, 0.445);
+    color: whitesmoke;
+    height: 50px;
+}
+
+.more{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    border-top: none;
+    padding-bottom: 10px;
+}
+
+.edit{
+    color: dodgerblue;
+}
+
+.accept{
+    justify-content: space-between;
+}
