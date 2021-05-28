@@ -12,9 +12,9 @@
         <div class="nav">
             <h1 class="nav-title">DojoWeather</h1>
             <ul class="nav-links">
-                <li><a class="links" href="#">Burbank</a></li>
-                <li><a class="links" href="#">Chicago</a></li>
-                <li><a class="links" href="#">Dallas</a></li>
+                <li><a class="links" href="#" onclick="alert('Loading weather report...')">Burbank</a></li>
+                <li><a class="links" href="#" onclick="alert('Loading weather report...')">Chicago</a></li>
+                <li><a class="links" href="#" onclick="alert('Loading weather report...')">Dallas</a></li>
             </ul>
         </div>
         <div class="main-content">
@@ -30,32 +30,42 @@
                 </div>
             </div>
             <div class="cards">
-                <div class="card">
+                <div class="card today">
                     <h2 class="margin">Today</h2>
                     <img  class="imgs margin" src="./Static/some_rain.png" alt="rainy">
                     <h4 class="margin">some rain</h4>
-                    <h3 class="margin">23.9 <span>18.9</span></h3>
+                    <h3 class="margin red">23.9 <span class="blue"> 18.9</span></h3>
                 </div>
-                <div class="card">
-                    <h2 class="margin"></h2>
-                    <img class="imgs margin" src="" alt="">
-                    <h4 class="margin"></h4>
-                    <h3 class="margin"></h3>
+                <div class="card tomorrow">
+                    <h2 class="margin">Tomorrow</h2>
+                    <img class="imgs margin" src="Static/some_sun.png" alt="sunny">
+                    <h4 class="margin">some sun</h4>
+                    <h3 class="margin red">26.7 <span class="blue"> 18.9</span></h3>
                 </div>
-                <div class="card">
-                    <h2 class="margin"></h2>
-                    <img class="imgs margin" src="" alt="">
-                    <h4 class="margin"></h4>
-                    <h3 class="margin"></h3>
+                <div class="card firday">
+                    <h2 class="margin">Friday</h2>
+                    <img class="imgs margin" src="./Static/some_clouds.png" alt="cloudy">
+                    <h4 class="margin">some clouds</h4>
+                    <h3 class="margin red">20.6 <span class="blue"> 16.1</span></h3>
                 </div>
-                <div class="card">
-                    <h2 class="margin"></h2>
-                    <img class="imgs margin" src="" alt="">
-                    <h4 class="margin"></h4>
-                    <h3 class="margin"></h3>
+                <div class="card saturday">
+                    <h2 class="margin">Saturday</h2>
+                    <img class="imgs margin" src="./Static/some_sun.png" alt="sunny">
+                    <h4 class="margin">some sun</h4>
+                    <h3 class="margin red">25.6 <span class="blue"> 21.1</span></h3>
                 </div>
             </div>
         </div>
+        <div id="pop-up">
+            <img class="cook-I" src="./Static/cookie.png" alt="cookie">
+            <div class="Cookie">
+                <h2>Stop! Cookie time</h2>
+                <p>we use cookies (sadly not the edible one) to personalize content
+                    and ads, to provide social featers and to analize our traffic <a class="blue" href="">Read more...</a></p>
+                </div>
+                <button class="accept-btn" onclick="hidediv()">I Accept</button>    
+        </div>
     </div>
+    <script src="./Script.js"></script>
 </body>
 </html>

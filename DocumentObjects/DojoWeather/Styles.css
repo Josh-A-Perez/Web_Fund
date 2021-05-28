@@ -36,7 +36,6 @@ li{
 .main-content{
     width: 950px;
     margin: 0px 125px;
-    background-color: wheat;
 }
 
 .header{
@@ -48,21 +47,61 @@ li{
 
 .cards{
     display: flex;
-    margin: 15px 0px 0px 0px;
+    justify-content: space-between;
+    margin-top: 25px;
 }
+
+
 
 .card{
-    flex: 1;
-    background-color: gray;
-
+    width: 210px;
+    background-color: rgb(238,238,238);
 }
+
 
 .margin{
     margin: 20px 50px;
 }
 
 .imgs{
-    height: 75px;
+    height: 100px;
     border-radius: 50%;
 }
+
+.red{
+    color: red;
+}
+.blue{
+    color: blue;
+}
+
+#pop-up{
+    position: fixed;
+    height: 100px;
+    width: 950px;
+    margin: 0px 125px 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(238,238,238);
+    border: black solid 3px;
+}
+
+.cookie{
+    margin-left: 15;
+}
+
+.accept-btn{
+    width: 100px;
+    height: 25px;
+    border: solid black 2px;
+    box-shadow: black 3px 3px;
+    margin-right: 20px;
+    background-color: rgb(159,197,248);
+}
+
+
+
+
+
 
