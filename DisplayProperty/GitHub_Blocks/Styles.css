@@ -13,10 +13,10 @@
 h1{
     font-weight: bolder;
     font-family: 'Courier New', Courier, monospace;
-    color: hotpink;
+    color: gold;
 }
 span{
-    color: cyan;
+    color: red;
 }
 
 .row{
@@ -54,9 +54,9 @@ img{
 .link{
     display: flex;
     justify-content: center;
-    color: cyan;
+    color: red;
 }
 a{
-    color: hotpink;
+    color: gold;
     margin-top: 20px;
 }
