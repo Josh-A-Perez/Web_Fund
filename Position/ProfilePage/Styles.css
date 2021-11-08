@@ -104,7 +104,7 @@ h2{
 }
 
 .low{
-    background-color: rgba(255, 0, 0, 0.445);
+    background-color: green;
     color: whitesmoke;
     height: 45px;
 }
@@ -124,7 +124,7 @@ h2{
 }
 
 .topr{
-    background-color: rgba(255, 0, 0, 0.445);
+    background-color: green;
     color: whitesmoke;
     height: 50px;
 }
@@ -145,7 +145,7 @@ h2{
 }
 
 .midt{
-    background-color: rgba(255, 0, 0, 0.445);
+    background-color: green;
     color: whitesmoke;
     height: 50px;
 }
