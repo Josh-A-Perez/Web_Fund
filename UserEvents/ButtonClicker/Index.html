@@ -4,12 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Button Clicker</title>
 </head>
 <body>
-    <div>
-        <h1>Click my button</h1>
-        <button>Click Me!</button>
+    <div class="container">
+        <div class="nav">
+            <h1 class="nav-title">Dojonary</h1>
+            <ul class="nav-links">
+                <li><input class="search" type="text" name="Search"></li>
+                <li><button class="btn">Login</button></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left">
+                <div class="top">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <p class="definition">A practitioner skilled in the Japanese art of ninjutsu</p>
+                    <button class="btn2">13 likes</button>
+                </div>
+                <div class="low">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h4>Plural: ninjas</h4>
+                    <p class="definition">A programmer who breaks down problems with zen-like focus</p>
+                    <button class="btn2">37 likes</button>
+                </div>
+            </div>
+            <div class="right">
+                <p class="define">Dojonary is defined by <span class="bold">YOU</span></p>
+                <button id="hide" onClick="hide()" class="btn3">Add Definition</button>
+            </div>
+        </div>
     </div>
+    <script src="Script.js"></script>
 </body>
 </html>
