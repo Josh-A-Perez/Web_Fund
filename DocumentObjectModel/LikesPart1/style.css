@@ -1,0 +1,40 @@
+.container{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.user-card{
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    border: black solid 2px;
+}
+
+.user-likes{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    height: 35px;
+    width: 55px;
+    background-color: coral;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+p{
+    margin-left: 15px;
+}

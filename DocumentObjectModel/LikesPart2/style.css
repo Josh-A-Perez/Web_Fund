@@ -1,0 +1,75 @@
+.container{
+    width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.top-black{
+    width: 900px;
+    height: 50px;
+    color: white;
+    background-color: black;
+}
+.top-white{
+    width: 900px;
+    height: 50px;
+}
+.blk{
+    margin-left: 20px;
+}
+.wht{
+    margin-left: 400px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.profile{
+    width: 250px;
+    border: black solid 2px;
+}
+.pro-pic{
+    height: 100px;
+    border-radius: 50%;
+    border: solid black 1px;
+    margin: 20px;
+}
+
+.user-card{
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    border: black solid 2px;
+}
+
+.user-likes{
+    display: flex;
+    justify-content: space-between;
+}
+
+h2{
+    margin-left: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.btn{
+    height: 35px;
+    width: 55px;
+    background-color: coral;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+p{
+    margin-left: 15px;
+}
